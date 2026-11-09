@@ -1,0 +1,7 @@
+{
+    "fix": "living room, couch, wooden floor, window, wall\n",
+    "random_text": "coffee table, carpet, television, rug, table, potted plant, picture frame, painting /(object/), lamp, fireplace, plant, cabinet, ceiling light, cushion, bookshelf, curtains, armchair, vase, controller, shelf, chair, photo /(object/), book, pillow, cup, drawer, game controller, door, game console, saucer, book stack, clock, calendar /(object/), remote control, teacup, flower pot, doorway, mug, slippers, blanket, tissue box, poster /(object/), stool, stairs\n",
+    "how_many": 15,
+    "location_type": "indoors",
+    "include_location": true
+}

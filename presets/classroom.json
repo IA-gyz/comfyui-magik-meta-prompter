@@ -1,0 +1,7 @@
+{
+    "fix": "classroom, sunlight, crowd, crowded, \n",
+    "random_text": "school chair, table, backpack, eraser, lectern, chalkboard, trash can, board eraser, pencil, bookshelf, book, book stack, pen, pencil, mechanical pencil, bag, table, school desk, pencil case, chalk\n",
+    "how_many": 15,
+    "location_type": "indoors",
+    "include_location": true
+}

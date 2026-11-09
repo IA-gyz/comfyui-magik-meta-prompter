@@ -1,0 +1,7 @@
+{
+    "fix": "office, window, cityscape, crowd, crowded\n",
+    "random_text": "office chair, desk, bulletin board, fluorescent lamp, binder, screen, cubicle, on desk, on chair, \n",
+    "how_many": 3,
+    "location_type": "indoors",
+    "include_location": true
+}

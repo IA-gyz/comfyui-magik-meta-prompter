@@ -1,0 +1,7 @@
+{
+    "fix": "hallway, school, window, wooden floor, ",
+    "random_text": "door, ceiling light, exit sign,stairs, poster (object), sliding doors",
+    "how_many": 2,
+    "location_type": "indoors",
+    "include_location": true
+}

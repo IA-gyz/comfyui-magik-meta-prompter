@@ -1,0 +1,1542 @@
+/* ---- Master container ---- */
+.magik-nl-master {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+/* ---- Global Params Panel ---- */
+.magik-nl-params-panel {
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 24px;
+    padding: 28px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+.magik-nl-params-section-label {
+    color: #6b7280;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.magik-nl-param-cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+    min-width: 0;
+}
+.magik-nl-param-label {
+    color: #9ca3af;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex: 0 0 260px;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.magik-nl-param-label-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+.magik-nl-phase-count {
+    color: #34d399;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 30px;
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+.magik-nl-phase-enable-checkbox {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    accent-color: #3b82f6;
+    flex: 0 0 auto;
+}
+.magik-nl-param-input {
+    background: #000;
+    color: #fbbf24;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 60px;
+    font-family: monospace;
+    text-align: center;
+    width: 200px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+.magik-nl-param-input:focus { outline: none; border-color: #fbbf24; }
+.magik-nl-param-input.clothing { color: #a78bfa; }
+.magik-nl-param-input.clothing:focus { border-color: #a78bfa; }
+.magik-nl-param-input.max { color: #34d399; }
+.magik-nl-param-input.max:focus { border-color: #34d399; }
+.magik-nl-param-range {
+    color: #6b7280;
+    font-size: 40px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    /* Ratio-based, not content-sized — every grid column is the same width
+       (1fr each) and every cell uses this same ratio, so the actual pixel
+       width comes out identical in every column regardless of how many
+       digits a given range has. That's what keeps the trailing input
+       aligned in a clean column across rows/groups. */
+    flex: 2 1 0;
+    min-width: 0;
+}
+
+.magik-nl-thresh-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* ---- Phase Thresholds: grouped stage cards ----
+   Each narrative stage plus the Lift set gets its own bordered card
+   instead of one flat 4-column grid. Cards sit side by side and all
+   stretch to match the tallest card (align-items: stretch, the flex
+   default), since Had Enough Yet ? and Lift have fewer rows than the
+   two 4-item stages. */
+.magik-nl-stage-row {
+    flex: 4 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.magik-nl-stage-card {
+    flex: 1 1 220px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-top: 3px solid #3b82f6;
+    border-radius: 18px;
+    padding: 20px 22px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.28);
+}
+.magik-nl-stage-card-title {
+    color: #9ca3af;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.magik-nl-stage-card .magik-nl-param-cell {
+    /* label anchors left, input anchors right, range floats centered
+       between them with the leftover space split evenly on both sides —
+       this is what makes each row fill the card's full width instead of
+       leaving a blank strip after the input. */
+    justify-content: space-between;
+    gap: 10px;
+}
+.magik-nl-stage-card .magik-nl-param-label {
+    flex: 0 0 300px;
+    font-size: 38px;
+}
+.magik-nl-stage-card .magik-nl-param-range {
+    flex: 0 0 auto;
+    width: auto;
+    font-size: 48px;
+}
+.magik-nl-stage-card .magik-nl-phase-count {
+    font-size: 44px;
+}
+.magik-nl-stage-card .magik-nl-phase-enable-checkbox {
+    width: 48px;
+    height: 48px;
+}
+.magik-nl-stage-card .magik-nl-param-input {
+    width: 160px;
+    font-size: 50px;
+    padding: 8px 10px;
+}
+.magik-nl-active-count {
+    margin-top: 4px;
+    padding: 10px 14px;
+    text-align: center;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 46px;
+    color: #34d399;
+    background: #000;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+}
+
+/* Lift/Aging card: same card chrome, purple accent to match its inputs
+   and to visually set "clothing state" apart from phase progression. */
+.magik-nl-lift-card {
+    border-top-color: #a78bfa;
+}
+.magik-nl-lift-card .magik-nl-stage-card-title {
+    color: #c4b5fd;
+}
+
+/* ---- Prompt Order (drag-and-drop cards) ---- */
+.magik-nl-order-col {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.magik-nl-order-col-label {
+    color: #9ca3af;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+.magik-nl-order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.magik-nl-order-card {
+    background: #000;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: #e5e7eb;
+    font-size: 44px;
+    font-weight: 600;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.15s, background 0.15s, opacity 0.15s;
+}
+.magik-nl-order-card::before {
+    content: "\283F";
+    color: #6b7280;
+    font-size: 36px;
+    line-height: 1;
+}
+.magik-nl-order-card:hover {
+    border-color: #3b82f6;
+}
+.magik-nl-order-card.dragging {
+    opacity: 0.4;
+    border-color: #3b82f6;
+    cursor: grabbing;
+}
+
+/* ---- Checklist ---- */
+.magik-nl-checklist-input {
+    width: 100%;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 28px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+    min-height: 2em;
+    font-family: inherit;
+}
+.magik-nl-checklist-input:focus { outline: none; border-color: #3b82f6; }
+
+/* ---- Line 1 source toggles (Scene/Composition/Lighting/Style/Technical Details) ---- */
+.magik-nl-line1-toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 42px;
+    gap: 48px;
+    background: #111;
+    border: 1px solid #27272a;
+    border-radius: 54px;
+    padding: 54px 72px;
+}
+.magik-nl-style-toggle {
+    display: inline-flex;
+    flex-shrink: 0;
+    background: #000;
+    border: 1px solid #374151;
+    border-radius: 42px;
+    padding: 12px;
+    gap: 12px;
+}
+.magik-nl-style-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #9ca3af;
+    font-size: 78px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 36px 78px;
+    border-radius: 30px;
+    transition: background 0.15s, color 0.15s;
+}
+.magik-nl-style-toggle-btn:hover { color: #e5e7eb; }
+.magik-nl-style-toggle-btn.active {
+    background: #3b82f6;
+    color: #fff;
+}
+.magik-nl-style-toggle-btn.magik-nl-test-btn.active {
+    background: #a78bfa;
+    color: #1e1b4b;
+}
+.magik-nl-style-toggle-btn.magik-nl-icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 54px;
+}
+.magik-nl-icon-btn svg {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+.magik-nl-test-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    background: #0d0d0d;
+    border: 1px solid #2a2a2a;
+    border-radius: 48px;
+    padding: 18px 30px 18px 18px;
+}
+.magik-nl-test-path-input {
+    flex: 1 1 480px;
+    min-width: 360px;
+    max-width: 720px;
+    background: #000;
+    color: #10b981;
+    border: 1px solid #374151;
+    border-radius: 36px;
+    padding: 36px 54px;
+    font-size: 66px;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.magik-nl-test-path-input:focus { outline: none; border-color: #10b981; }
+.magik-nl-line1-toggle {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #d4d4d8;
+    font-size: 66px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.magik-nl-line1-checkbox {
+    width: 78px;
+    height: 78px;
+    cursor: pointer;
+    accent-color: #3b82f6;
+    flex-shrink: 0;
+}
+
+/* ---- State panel (thresholds only, no pool stats) ---- */
+.magik-nl-state-panel {
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 24px;
+    padding: 30px 36px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+.magik-nl-state-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 16px;
+}
+.magik-nl-state-title {
+    color: #f3f4f6;
+    font-size: 72px;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* ---- Combo Grid ---- */
+.magik-nl-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px;
+    padding: 36px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #0f0f0f;
+    border-radius: 24px;
+    min-width: 0;
+}
+.magik-nl-cell {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 12px 18px rgba(0,0,0,0.3);
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+    min-width: 0;
+    overflow: hidden;
+}
+.magik-nl-cell.active-combo {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3), 0 12px 18px rgba(0,0,0,0.3);
+    background: #1e293b;
+}
+.magik-nl-cell.active-combo .magik-nl-title { color: #60a5fa; }
+
+.magik-nl-phase-banner {
+    text-align: center;
+    font-size: 216px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #60a5fa;
+    background: #111;
+    border: 1px solid #27272a;
+    border-radius: 24px;
+    padding: 20px 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.magik-nl-combo-count-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: #111;
+    border: 1px solid #27272a;
+    border-radius: 20px;
+    padding: 16px 24px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.magik-nl-combo-count-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    background: #000;
+    border: 1px solid #374151;
+    border-radius: 50%;
+    color: #e5e7eb;
+    font-size: 28px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.magik-nl-combo-count-btn:hover:not(:disabled) {
+    border-color: #3b82f6;
+    color: #60a5fa;
+}
+.magik-nl-combo-count-btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+.magik-nl-combo-count-label {
+    color: #9ca3af;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 220px;
+    text-align: center;
+}
+
+.magik-nl-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 24px;
+}
+.magik-nl-title {
+    color: #f3f4f6;
+    font-size: 42px;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.magik-nl-label {
+    color: #9ca3af;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    display: block;
+    letter-spacing: 1.5px;
+}
+
+.magik-nl-input-path {
+    background: #000;
+    color: #10b981;
+    border: 1px solid #374151;
+    padding: 12px 24px;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 33px;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.magik-nl-input-path:focus { outline: 3px solid #10b981; border-color: #10b981; }
+
+/* ---- Suffix row: suffix input + auto-generated folder name, side by side ---- */
+.magik-nl-suffix-row {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+.magik-nl-suffix-row .magik-nl-input-path {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+}
+.magik-nl-path-display.suffix-path {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-size: 33px;
+    font-family: monospace;
+    font-weight: 400;
+    color: #c084fc;
+    background: #000;
+    border: 1px solid #374151;
+    border-radius: 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.magik-nl-path-display.suffix-path.has-value { border-color: #3f2a5c; }
+.magik-nl-path-display.suffix-path:empty::before {
+    content: "auto-generated path";
+    color: #4b5563;
+    font-style: italic;
+}
+
+.magik-nl-input {
+    width: 100%;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 18px;
+    padding: 18px 24px;
+    box-sizing: border-box;
+    font-size: 36px;
+    transition: border 0.2s;
+    resize: vertical;
+}
+.magik-nl-input:focus { outline: none; border-color: #3b82f6; }
+.magik-nl-input:disabled,
+.magik-nl-input.magik-nl-disabled-source {
+    opacity: 0.45;
+    cursor: not-allowed;
+    background: #0a0a0a;
+}
+.magik-nl-input.invalid { border-color: #ef4444; background: #2f1515; box-shadow: 0 0 0 3px #ef4444; }
+.magik-nl-input.invalid-soft { border-color: #a78bfa; background: #241f38; box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.35); }
+
+/* ---- Character search button in header (static label, no path text) ---- */
+.magik-nl-path-display.header-path {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 52px;
+    font-family: inherit;
+    min-height: 52px;
+    padding: 14px 28px;
+    color: #a78bfa;
+    background: #141018;
+    border: 2px solid #3f2a5c;
+    border-radius: 14px;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.magik-nl-path-display.header-path:hover {
+    color: #d8b4fe;
+    background: #1f1730;
+    border-color: #a78bfa;
+}
+
+.magik-nl-clear-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #a1a1aa;
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 32px;
+    line-height: 1;
+    transition: color 0.15s, background 0.15s;
+    flex-shrink: 0;
+}
+.magik-nl-clear-btn:hover { color: #ef4444; background: #1f1f23; }
+
+.magik-nl-randomize-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #a1a1aa;
+    padding: 0;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 1em;
+    line-height: 1;
+    vertical-align: middle;
+    display: inline-flex;
+    transition: color 0.15s;
+}
+.magik-nl-randomize-btn:hover { color: #34d399; }
+
+/* ---- Aging row ---- */
+.magik-nl-aging-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    gap: 32px;
+    background: #111;
+    padding: 32px 20px;
+    border-radius: 18px;
+    border: 1px solid #27272a;
+}
+.magik-nl-aging-toggle {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #d4d4d8;
+    font-size: 56px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.magik-nl-aging-checkbox {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    accent-color: #3b82f6;
+}
+.magik-nl-aging-input {
+    width: 200px;
+    background: #000;
+    color: #fbbf24;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-size: 56px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* ---- Base/Phase paths ---- */
+.magik-nl-base-paths,
+.magik-nl-phase-paths {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.magik-nl-base-paths .magik-nl-label,
+.magik-nl-phase-paths .magik-nl-label {
+    font-size: 24px;
+}
+.magik-nl-base-paths .magik-nl-input,
+.magik-nl-phase-paths .magik-nl-input {
+    font-size: 26px;
+    padding: 12px 16px;
+}
+/* ---- Male grid: names row, then [icon area + 4 descriptions] row ---- */
+.magik-nl-male-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.magik-nl-male-names-row,
+.magik-nl-male-desc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+.magik-nl-male-desc-row {
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.magik-nl-male-desc-grid { flex: 1; }
+
+/* Icon area to the left of the 4 descriptions: height matches the row
+   (via align-items: stretch on .magik-nl-male-desc-row above), width is
+   half the height via aspect-ratio. */
+.magik-nl-male-icon-area {
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
+}
+.magik-nl-male-icon-btn {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #18181b;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    color: #a1a1aa;
+    font-size: 32px;
+    cursor: pointer;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.magik-nl-male-icon-btn:hover {
+    color: #34d399;
+    border-color: #34d399;
+    background: #0f1f18;
+}
+
+/* Each cell contains a label + input */
+.magik-nl-male-names-row > div,
+.magik-nl-male-desc-grid > div {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Adjust label font size for male grid */
+.magik-nl-male-names-row .magik-nl-label,
+.magik-nl-male-desc-grid .magik-nl-label {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+/* Inputs in male grid */
+.magik-nl-male-names-row .magik-nl-input,
+.magik-nl-male-desc-grid .magik-nl-input {
+    font-size: 28px;
+    padding: 12px 16px;
+}
+
+/* Ensure textareas in male grid match */
+.magik-nl-male-desc-grid textarea.magik-nl-input {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* ---- Override empty background colors ---- */
+/* Clothes Description – dark green when empty */
+.magik-nl-clothes.magik-nl-input.invalid {
+    background: #064e3b !important;
+    color: #1e1b4b !important;
+    border-color: #a78bfa !important;
+}
+
+/* MALE_NAME_# and MALE_DESCRIPTION_# – yellow when empty */
+.magik-nl-male.magik-nl-input.invalid {
+    background: #fde047 !important;
+    color: #1e1b4b !important;
+    border-color: #f59e0b !important;
+}
+
+/* Girl Description (Face) and Girl Description (No Face) – keep the red theme (default) */
+/* ---- Autocomplete menu ---- */
+.magik-autocomplete-menu {
+    position: fixed;
+    background: #18181b;
+    border: 1px solid #3f3f46;
+    border-radius: 12px;
+    max-height: 420px;
+    overflow-y: auto;
+    z-index: 10001;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+}
+.magik-autocomplete-item {
+    padding: 18px 24px;
+    cursor: pointer;
+    color: #d4d4d8;
+    font-size: 30px;
+    border-bottom: 1px solid #27272a;
+    white-space: nowrap;
+}
+.magik-autocomplete-item:last-child { border-bottom: none; }
+.magik-autocomplete-item:hover, .magik-autocomplete-item.active { background: #27272a; color: #fff; }
+
+/* ---- LoRA section (ported from AnimaX, prefix-renamed, rescaled to NL metrics) ---- */
+.magik-nl-lora-section {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 12px;
+}
+.magik-nl-lora-title {
+    color: #a78bfa;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 8px 0;
+}
+.magik-nl-lora-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.magik-nl-lora-slot {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+.magik-nl-lora-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 10px 12px;
+    border: 1px solid #27272a;
+    min-width: 0;
+}
+.magik-nl-lora-row.disabled { opacity: 0.4; }
+.magik-nl-lora-enable {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    background: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #10b981;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+.magik-nl-lora-enable.active { background: rgba(16, 185, 129, 0.2); border-color: #10b981; }
+.magik-nl-lora-name {
+    flex: 2;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 26px;
+    min-width: 0;
+}
+.magik-nl-lora-strength {
+    width: 100px;
+    background: #000;
+    color: #fbbf24;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+.magik-nl-lora-label-sm {
+    color: #6b7280;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.magik-nl-lock-btn {
+    background: #111;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px;
+    transition: background 0.2s;
+}
+
+.magik-nl-lock-btn:hover { background: #27272a; }
+.magik-nl-lock-btn[data-locked="true"] {
+    border-color: #fbbf24;
+    background: rgba(251, 191, 36, 0.1);
+}
+
+/* ---- Phase Selector Buttons ---- */
+.magik-nl-phase-btn {
+    font-size: 24px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #111;
+    border: 1px solid #374151;
+    color: #e5e7eb;
+    margin: 4px;
+    transition: all 0.2s;
+}
+
+.magik-nl-phase-btn:hover {
+    border-color: #3b82f6;
+    background: #1f2937;
+}
+
+.magik-nl-phase-btn.active {
+    background: #3b82f6;
+    color: #ffffff;
+    border-color: #60a5fa;
+}
+
+.magik-nl-lora-remove {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #374151;
+    background: #000;
+    color: #6b7280;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-left: auto;
+    transition: all 0.2s;
+}
+.magik-nl-lora-remove:hover {
+    color: #ef4444;
+    border-color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.magik-nl-lora-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 60px;
+    background: #0a0a0a;
+    border: 2px dashed #374151;
+    border-radius: 12px;
+    color: #a78bfa;
+    font-size: 26px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.magik-nl-lora-add:hover {
+    border-color: #a78bfa;
+    background: rgba(167, 139, 250, 0.08);
+    color: #c084fc;
+}
+
+.magik-nl-lora-trigger-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 8px 12px;
+    border: 1px solid #27272a;
+    min-width: 0;
+}
+.magik-nl-lora-row.disabled + .magik-nl-lora-trigger-row { opacity: 0.4; }
+.magik-nl-lora-trigger-row label {
+    color: #6b7280;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+}
+.magik-nl-lora-trigger-word {
+    flex: 2;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 26px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+.magik-nl-lora-trigger-point {
+    flex: 1;
+    background: #000;
+    color: #a78bfa;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 22px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+/* ---- Background Builder section (folded in from the standalone
+   MagikBackgroundBuilder node/pack, by way of MagikNLMetaPrompterJSON) ---- */
+.magik-nl-bg-section {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 18px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 12px;
+}
+.magik-nl-bg-title {
+    color: #34d399;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 8px 0;
+}
+.magik-nl-bg-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.magik-nl-bg-row label {
+    color: #9ca3af;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.magik-nl-bg-fix,
+.magik-nl-bg-random-text {
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 26px;
+    font-family: inherit;
+    box-sizing: border-box;
+    width: 100%;
+}
+.magik-nl-bg-random-text {
+    min-height: 90px;
+    resize: vertical;
+    font-family: monospace;
+}
+.magik-nl-bg-fix:focus,
+.magik-nl-bg-random-text:focus { outline: none; border-color: #34d399; }
+.magik-nl-bg-fix:disabled,
+.magik-nl-bg-random-text:disabled {
+    background: #0a0a0a;
+    color: #52525b;
+    border-color: #27272a;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.magik-nl-bg-combined-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+}
+.magik-nl-bg-combined-row label {
+    color: #9ca3af;
+    font-size: 22px;
+    white-space: nowrap;
+}
+.magik-nl-bg-how-many {
+    width: 90px;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+.magik-nl-bg-how-many:focus { outline: none; border-color: #34d399; }
+.magik-nl-bg-count-btn {
+    background: #1f2937;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 22px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    transition: background 0.15s, border-color 0.15s;
+}
+.magik-nl-bg-count-btn:hover { background: #27272a; border-color: #4b5563; }
+.magik-nl-bg-count-display {
+    font-size: 24px;
+    color: #34d399;
+    font-family: monospace;
+    min-width: 40px;
+    text-align: right;
+    flex: 0 0 auto;
+}
+
+.magik-nl-bg-toggle-container {
+    position: relative;
+    flex: 2 1 240px;
+    min-width: 200px;
+    height: 56px;
+}
+.magik-nl-bg-location-btn {
+    width: 100%;
+    height: 100%;
+    background: #1a1a1a;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: opacity 0.15s;
+}
+.magik-nl-bg-include-btn {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    height: 28px;
+    padding: 0 12px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.magik-nl-bg-save-btn,
+.magik-nl-bg-load-btn {
+    flex: 1 1 160px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 22px;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+.magik-nl-bg-save-btn { background: #2e7d32; }
+.magik-nl-bg-load-btn { background: #37474f; }
+
+.magik-nl-bg-preset-dropdown {
+    position: fixed;
+    background: #1a1a1a;
+    border: 2px solid #374151;
+    border-radius: 10px;
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 10000;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+.magik-nl-bg-preset-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    color: #e5e7eb;
+    font-size: 20px;
+    border-bottom: 1px solid #2a2a2a;
+    transition: background 0.15s;
+}
+.magik-nl-bg-preset-item:last-child { border-bottom: none; }
+.magik-nl-bg-preset-item:hover { background: #27272a; }
+
+/* ---- Male-description randomizer: sets/template edit modal ---- */
+.magik-nl-male-sets-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10010;
+}
+.magik-nl-male-sets-panel {
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 24px;
+    width: min(900px, 90vw);
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+.magik-nl-male-sets-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+    border-bottom: 1px solid #2a2a2a;
+    color: #e5e7eb;
+    font-size: 30px;
+    font-weight: 700;
+}
+.magik-nl-male-sets-header span { display: flex; align-items: center; gap: 12px; }
+.magik-nl-male-sets-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #a1a1aa;
+    font-size: 28px;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: color 0.15s, background 0.15s;
+}
+.magik-nl-male-sets-close:hover { color: #ef4444; background: #1f1f23; }
+
+.magik-nl-male-sets-body {
+    padding: 24px 32px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.magik-nl-male-sets-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.magik-nl-male-sets-section-title {
+    color: #9ca3af;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.magik-nl-male-sets-hint {
+    color: #6b7280;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.magik-nl-male-sets-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.magik-nl-male-set-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.magik-nl-male-set-name {
+    flex: 0 0 180px;
+    background: #000;
+    color: #34d399;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 24px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.magik-nl-male-set-values {
+    flex: 1;
+    min-width: 0;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.magik-nl-male-set-name:focus,
+.magik-nl-male-set-values:focus { outline: none; border-color: #3b82f6; }
+.magik-nl-male-set-remove {
+    flex: 0 0 auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #a1a1aa;
+    font-size: 26px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: color 0.15s, background 0.15s;
+}
+.magik-nl-male-set-remove:hover { color: #ef4444; background: #1f1f23; }
+
+.magik-nl-male-set-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 52px;
+    background: #0a0a0a;
+    border: 2px dashed #374151;
+    border-radius: 12px;
+    color: #a78bfa;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.magik-nl-male-set-add:hover {
+    border-color: #a78bfa;
+    background: rgba(167, 139, 250, 0.08);
+    color: #c084fc;
+}
+
+.magik-nl-male-sets-template {
+    width: 100%;
+    background: #000;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 24px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 3em;
+    font-family: inherit;
+    margin-bottom: 8px;
+}
+.magik-nl-male-sets-template:focus { outline: none; border-color: #3b82f6; }
+
+.magik-nl-male-sets-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 20px 32px;
+    border-top: 1px solid #2a2a2a;
+}
+.magik-nl-male-sets-footer-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.magik-nl-male-sets-btn {
+    padding: 14px 26px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+.magik-nl-male-sets-btn.secondary {
+    background: #1a1a1a;
+    border-color: #374151;
+    color: #e5e7eb;
+}
+.magik-nl-male-sets-btn.secondary:hover { border-color: #6b7280; }
+.magik-nl-male-sets-btn.primary {
+    background: #2e7d32;
+    color: #fff;
+}
+.magik-nl-male-sets-btn.primary:hover { background: #388e3c; }
+
+/* Per-combo execution-time character selection. */
+.magik-nl-randomize-button {
+    flex: 0 0 auto;
+    padding: 12px 18px;
+    border: 2px solid #374151;
+    border-radius: 14px;
+    background: #111;
+    color: #9ca3af;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.magik-nl-randomize-button:hover { border-color: #60a5fa; }
+.magik-nl-randomize-button.active {
+    background: #2563eb;
+    border-color: #60a5fa;
+    color: #fff;
+}
+.magik-nl-randomize-button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 3px;
+}
+.magik-nl-test-path-input.empty {
+    background: #7f1d1d;
+    border-color: #ef4444;
+    color: #fee2e2;
+}
+.magik-nl-test-path-input.empty::placeholder { color: #fca5a5; }
+.magik-nl-randomized-inputs {
+    opacity: 0.45;
+    filter: grayscale(1);
+}
+.magik-nl-randomized-inputs input,
+.magik-nl-randomized-inputs textarea,
+.magik-nl-randomized-inputs button,
+button.magik-nl-randomized-inputs {
+    cursor: not-allowed;
+}
+
+/* Selected-character preview and saved identity lock. */
+.magik-nl-character-preview {
+    display: flex; align-items: center; flex-wrap: wrap; gap: 18px;
+    background: #111827; border: 1px solid #374151; border-radius: 16px;
+    padding: 18px;
+}
+.magik-nl-character-thumbnail {
+    width: 84px; height: 100px; object-fit: contain;
+    background: #000; border-radius: 10px; flex: 0 0 auto;
+}
+.magik-nl-character-thumbnail[hidden] { display: none; }
+.magik-nl-character-preview-text {
+    display: flex; flex-direction: column; gap: 8px;
+    flex: 1 1 160px; min-width: 0; overflow-wrap: anywhere;
+}
+.magik-nl-character-preview-text strong { font-size: 28px; color: #e5e7eb; }
+.magik-nl-character-preview-text span { font-size: 20px; color: #9ca3af; }
+.magik-nl-character-preview-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.magik-nl-character-preview-actions button {
+    padding: 10px 14px; background: #1f2937; color: #e5e7eb;
+    border: 1px solid #4b5563; border-radius: 10px;
+    font-size: 22px; cursor: pointer;
+}
+.magik-nl-character-preview-actions button.active { background: #2563eb; border-color: #60a5fa; }
+.magik-nl-character-preview-actions button:disabled { opacity: .4; cursor: not-allowed; }
+.magik-nl-character-preview-actions button:focus-visible { outline: 3px solid #93c5fd; outline-offset: 2px; }
+
+/* Compact combo cards with independent identity/outfit/background/LoRA areas. */
+.magik-nl-cell { padding: 24px; gap: 20px; }
+.magik-nl-header { gap: 10px; flex-wrap: wrap; padding-bottom: 14px; }
+.magik-nl-header .magik-nl-title { font-size: 28px; flex: 1 1 130px; }
+.magik-nl-header .header-path { margin: 0; flex: 1 1 180px; font-size: 24px; padding: 10px 14px; min-height: 40px; }
+.magik-nl-header .magik-nl-randomize-button { font-size: 22px; padding: 10px 14px; }
+.magik-nl-collapse-button { border: 1px solid #374151; border-radius: 10px; color: #d1d5db; background: #111; font-size: 20px; padding: 10px; cursor: pointer; }
+.magik-nl-combo-body { display: flex; flex-direction: column; gap: 20px; }
+.magik-nl-combo-body[hidden] { display: none; }
+.magik-nl-combo-section { border: 1px solid #374151; border-radius: 16px; background: #151515; padding: 18px; display: flex; flex-direction: column; gap: 16px; }
+.magik-nl-combo-section-title { margin: 0; color: #93c5fd; font-size: 28px; }
+.magik-nl-cell .magik-nl-label { font-size: 20px; }
+.magik-nl-cell .magik-nl-input { font-size: 26px; padding: 12px 16px; }
+.magik-nl-cell .magik-nl-aging-row { padding: 16px; gap: 16px; }
+.magik-nl-cell .magik-nl-aging-toggle { font-size: 24px; gap: 10px; }
+.magik-nl-cell .magik-nl-aging-checkbox { width: 28px; height: 28px; }
+.magik-nl-cell .magik-nl-aging-input { width: 100px; font-size: 26px; padding: 8px; }
+.magik-nl-random-filters { background: #111827; border: 1px solid #374151; border-radius: 12px; padding: 12px; }
+.magik-nl-random-filters summary { color: #93c5fd; font-size: 22px; cursor: pointer; }
+.magik-nl-filter-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.magik-nl-filter-grid label { color: #9ca3af; display: flex; flex-direction: column; gap: 6px; font-size: 20px; min-width: 0; }
+.magik-nl-filter-grid select, .magik-nl-filter-grid button { background: #000; color: #e5e7eb; border: 1px solid #374151; border-radius: 8px; padding: 10px; font-size: 20px; min-width: 0; }
+.magik-nl-filter-grid button { cursor: pointer; }
+.magik-nl-filter-grid :disabled { opacity: .45; cursor: not-allowed; }
+.magik-nl-filter-note { color: #9ca3af; font-size: 18px; margin-top: 10px; }
+
+.magik-nl-grid { align-items: start; }
+
+/* Keep frontend height intrinsic so collapse can shrink the host node. */
+.magik-nl-master { height: auto; min-height: 0; flex-shrink: 0; }
+
+.magik-nl-execution-summary { padding: 20px 28px; background: linear-gradient(120deg, #182331, #192721); border: 1px solid #44677a; border-radius: 18px; font-size: 22px; }
+.magik-nl-execution-summary h3 { margin: 0 0 6px; font-size: 26px; }
+.magik-nl-execution-summary > span { color: #a8c5c5; }
+.magik-nl-execution-summary .execution-details { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+.magik-nl-execution-summary .execution-details div { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.magik-nl-execution-summary .execution-details div:last-child { grid-column: 1 / -1; }
+.magik-nl-execution-summary .execution-details span { font-size: 18px; color: #a8b6c5; }
+.magik-nl-execution-summary strong { overflow-wrap: anywhere; color: #e4f4ef; user-select: text; }
+
+/* Execution area: current display 1/3, future panel 2/3. */
+.magik-nl-execution-summary { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 28px; align-items: stretch; }
+.magik-nl-execution-summary .execution-current { min-width: 0; }
+.magik-nl-execution-summary .execution-current > span { color: #a8c5c5; overflow-wrap: anywhere; }
+.magik-nl-execution-summary .execution-details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.magik-nl-execution-summary .execution-panel-placeholder { min-width: 0; padding: 22px 28px; box-sizing: border-box; border: 1px dashed #547d86; border-radius: 14px; background: rgba(9, 18, 26, 0.3); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.magik-nl-execution-summary .execution-panel-placeholder h3 { color: #bbdcd5; margin: 0 0 8px; }
+.magik-nl-execution-summary .execution-panel-placeholder p { color: #8faeb2; font-size: 20px; margin: 0; }
+
+/* Readable status cards in the two-thirds information area. */
+.execution-panel-placeholder:has(.parameter-checklist) { display:block; text-align:left; }
+.parameter-checklist { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.checklist-row { padding:14px 18px; border:1px solid currentColor; border-radius:10px; display:flex; flex-direction:column; gap:8px; min-width:0; }
+.checklist-row span { color:#e0e6eb; white-space:pre-wrap; overflow-wrap:anywhere; font-size:14px; }
+.checklist-ready { color:#72d99b; background:#173d2d; }
+.checklist-warning { color:#ffd079; background:#493a20; }
+.checklist-error { color:#ff9696; background:#4b2429; }
+.checklist-disabled { color:#929aa5; background:#242a32; }
+.checklist-disabled span { color:#929aa5; }
+
+.execution-character-picture { display:block; width:100%; height:260px; object-fit:contain; margin-top:16px; border-radius:10px; background:#141920; }
+.execution-character-picture[hidden] { display:none; }
+.execution-picture-status { display:block; margin-top:10px; color:#aebbc8; }
+
+/* v15: full-width search; half the previous header size. */
+.magik-nl-header { gap:25px; padding-bottom:35px; }
+.magik-nl-header .magik-nl-title { flex:0 0 auto; font-size:70px; gap:45px; white-space:nowrap; }
+.magik-nl-header .header-path { flex:1 1 450px; margin:0; font-size:60px; min-height:100px; padding:25px 35px; gap:40px; border-radius:25px; }
+.magik-nl-header .magik-nl-randomize-button { flex:0 0 auto; font-size:55px; padding:25px 35px; border-radius:25px; }
+.magik-nl-header .magik-nl-clear-btn { flex:0 0 auto; font-size:60px; padding:25px; }
+.magik-nl-header .magik-nl-collapse-button { flex:0 0 auto; font-size:50px; padding:25px; border-radius:25px; }
+
+.magik-nl-description-split { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px; }
+.magik-nl-description-split > div { min-width:0; }

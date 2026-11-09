@@ -1,0 +1,7 @@
+{
+    "fix": "hospital, waiting room, (crowd, crowded:1.2), \n",
+    "random_text": "hospital bed, intravenous drip, doctor, wheelchair, chart, ventilation shaft, chair, bench, monitor, hospital gown, poster \\(object\\), painting \\(object\\), wall clock, \n",
+    "how_many": 3,
+    "location_type": "indoors",
+    "include_location": true
+}

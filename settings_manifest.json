@@ -1,0 +1,7489 @@
+{
+  "magik_nl_meta_prompter": {
+    "Posing": {
+      "default": 10
+    },
+    "Teasing": {
+      "default": 20
+    },
+    "Groping": {
+      "default": 30
+    },
+    "Group_Groping": {
+      "default": 40
+    },
+    "Cunni": {
+      "default": 50
+    },
+    "BJ": {
+      "default": 70
+    },
+    "Action": {
+      "default": 90
+    },
+    "Anaction": {
+      "default": 110
+    },
+    "Group_BJ": {
+      "default": 130
+    },
+    "Group": {
+      "default": 140
+    },
+    "Facial": {
+      "default": 160
+    },
+    "lift_clothes_panties": {
+      "default": 35
+    },
+    "lift_clothes_no_panties": {
+      "default": 90
+    },
+    "completely_nude": {
+      "default": 125
+    },
+    "CLOTHES_LIFTING_CHECKLIST": {
+      "default": "pants, shorts, jeans, skirt, shirt, dress, jacket, blazer, bikini, swimsuit, uniform, outfit",
+      "multiline": true
+    },
+    "Posing_enabled": {
+      "default": true
+    },
+    "Teasing_enabled": {
+      "default": true
+    },
+    "Groping_enabled": {
+      "default": true
+    },
+    "Group_Groping_enabled": {
+      "default": true
+    },
+    "Cunni_enabled": {
+      "default": true
+    },
+    "BJ_enabled": {
+      "default": true
+    },
+    "Action_enabled": {
+      "default": true
+    },
+    "Anaction_enabled": {
+      "default": true
+    },
+    "Group_BJ_enabled": {
+      "default": true
+    },
+    "Group_enabled": {
+      "default": true
+    },
+    "Facial_enabled": {
+      "default": true
+    },
+    "use_Scene": {
+      "default": true
+    },
+    "use_Composition": {
+      "default": true
+    },
+    "use_Lighting": {
+      "default": true
+    },
+    "use_Style": {
+      "default": true
+    },
+    "use_Technical_details": {
+      "default": true
+    },
+    "qt_style": {
+      "default": "anime"
+    },
+    "is_test": {
+      "default": false
+    },
+    "test_path": {
+      "default": ""
+    },
+    "prompt_order": {
+      "default": "line_QT,general,male,female,act"
+    },
+    "active_combos": {
+      "default": 2,
+      "min": 2,
+      "max": 8
+    },
+    "Scene_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Composition_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Lighting_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Style_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Technical_details_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Posing_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Teasing_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Groping_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_Groping_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Cunni_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "BJ_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Action_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Anaction_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_BJ_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "wildcards_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Outfit_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Common": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Anime": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Realism": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Common": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Anime": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Realism": {
+      "force_input": true,
+      "default": ""
+    },
+    "MALE_NAME_1": {
+      "default": "Alberto"
+    },
+    "MALE_DESCRIPTION_1": {
+      "default": "has grey hair, facial hair and is wearing a blue jacket and denim pants",
+      "multiline": true
+    },
+    "MALE_NAME_2": {
+      "default": "Benny"
+    },
+    "MALE_DESCRIPTION_2": {
+      "default": "has black hair, wears glasses and he is wearing a grey shirt and brown pants",
+      "multiline": true
+    },
+    "MALE_NAME_3": {
+      "default": "Carl"
+    },
+    "MALE_DESCRIPTION_3": {
+      "default": "has blonde hair, facial hair and is wearing a blue shirt and blue pants",
+      "multiline": true
+    },
+    "MALE_NAME_4": {
+      "default": "Didier"
+    },
+    "MALE_DESCRIPTION_4": {
+      "default": "He's a dog",
+      "multiline": true
+    },
+    "suffix_1": {
+      "default": ""
+    },
+    "GIRL_FACE_1": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_1": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_1": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_1": {
+      "default": false
+    },
+    "teenager_1": {
+      "default": false
+    },
+    "t_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_1": {
+      "default": false
+    },
+    "a_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_1": {
+      "default": false
+    },
+    "s_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_1": {
+      "default": false
+    },
+    "c_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_2": {
+      "default": ""
+    },
+    "GIRL_FACE_2": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_2": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_2": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_2": {
+      "default": false
+    },
+    "teenager_2": {
+      "default": false
+    },
+    "t_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_2": {
+      "default": false
+    },
+    "a_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_2": {
+      "default": false
+    },
+    "s_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_2": {
+      "default": false
+    },
+    "c_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_3": {
+      "default": ""
+    },
+    "GIRL_FACE_3": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_3": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_3": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_3": {
+      "default": false
+    },
+    "teenager_3": {
+      "default": false
+    },
+    "t_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_3": {
+      "default": false
+    },
+    "a_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_3": {
+      "default": false
+    },
+    "s_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_3": {
+      "default": false
+    },
+    "c_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_4": {
+      "default": ""
+    },
+    "GIRL_FACE_4": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_4": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_4": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_4": {
+      "default": false
+    },
+    "teenager_4": {
+      "default": false
+    },
+    "t_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_4": {
+      "default": false
+    },
+    "a_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_4": {
+      "default": false
+    },
+    "s_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_4": {
+      "default": false
+    },
+    "c_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_5": {
+      "default": ""
+    },
+    "GIRL_FACE_5": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_5": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_5": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_5": {
+      "default": false
+    },
+    "teenager_5": {
+      "default": false
+    },
+    "t_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_5": {
+      "default": false
+    },
+    "a_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_5": {
+      "default": false
+    },
+    "s_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_5": {
+      "default": false
+    },
+    "c_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_6": {
+      "default": ""
+    },
+    "GIRL_FACE_6": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_6": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_6": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_6": {
+      "default": false
+    },
+    "teenager_6": {
+      "default": false
+    },
+    "t_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_6": {
+      "default": false
+    },
+    "a_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_6": {
+      "default": false
+    },
+    "s_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_6": {
+      "default": false
+    },
+    "c_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_7": {
+      "default": ""
+    },
+    "GIRL_FACE_7": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_7": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_7": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_7": {
+      "default": false
+    },
+    "teenager_7": {
+      "default": false
+    },
+    "t_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_7": {
+      "default": false
+    },
+    "a_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_7": {
+      "default": false
+    },
+    "s_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_7": {
+      "default": false
+    },
+    "c_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_8": {
+      "default": ""
+    },
+    "GIRL_FACE_8": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_8": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_8": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_8": {
+      "default": false
+    },
+    "teenager_8": {
+      "default": false
+    },
+    "t_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_8": {
+      "default": false
+    },
+    "a_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_8": {
+      "default": false
+    },
+    "s_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_8": {
+      "default": false
+    },
+    "c_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "lora_visible_1": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_1_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_1": {
+      "default": false
+    },
+    "lora_strength_model_1_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_1": {
+      "default": ""
+    },
+    "lora_trigger_point_1_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_2": {
+      "default": false
+    },
+    "lora_strength_model_1_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_2": {
+      "default": ""
+    },
+    "lora_trigger_point_1_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_3": {
+      "default": false
+    },
+    "lora_strength_model_1_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_3": {
+      "default": ""
+    },
+    "lora_trigger_point_1_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_4": {
+      "default": false
+    },
+    "lora_strength_model_1_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_4": {
+      "default": ""
+    },
+    "lora_trigger_point_1_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_5": {
+      "default": false
+    },
+    "lora_strength_model_1_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_5": {
+      "default": ""
+    },
+    "lora_trigger_point_1_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_6": {
+      "default": false
+    },
+    "lora_strength_model_1_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_6": {
+      "default": ""
+    },
+    "lora_trigger_point_1_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_7": {
+      "default": false
+    },
+    "lora_strength_model_1_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_7": {
+      "default": ""
+    },
+    "lora_trigger_point_1_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_8": {
+      "default": false
+    },
+    "lora_strength_model_1_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_1_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_1_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_8": {
+      "default": ""
+    },
+    "lora_trigger_point_1_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_2": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_2_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_1": {
+      "default": false
+    },
+    "lora_strength_model_2_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_1": {
+      "default": ""
+    },
+    "lora_trigger_point_2_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_2": {
+      "default": false
+    },
+    "lora_strength_model_2_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_2": {
+      "default": ""
+    },
+    "lora_trigger_point_2_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_3": {
+      "default": false
+    },
+    "lora_strength_model_2_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_3": {
+      "default": ""
+    },
+    "lora_trigger_point_2_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_4": {
+      "default": false
+    },
+    "lora_strength_model_2_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_4": {
+      "default": ""
+    },
+    "lora_trigger_point_2_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_5": {
+      "default": false
+    },
+    "lora_strength_model_2_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_5": {
+      "default": ""
+    },
+    "lora_trigger_point_2_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_6": {
+      "default": false
+    },
+    "lora_strength_model_2_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_6": {
+      "default": ""
+    },
+    "lora_trigger_point_2_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_7": {
+      "default": false
+    },
+    "lora_strength_model_2_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_7": {
+      "default": ""
+    },
+    "lora_trigger_point_2_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_8": {
+      "default": false
+    },
+    "lora_strength_model_2_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_2_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_2_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_8": {
+      "default": ""
+    },
+    "lora_trigger_point_2_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_3": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_3_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_1": {
+      "default": false
+    },
+    "lora_strength_model_3_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_1": {
+      "default": ""
+    },
+    "lora_trigger_point_3_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_2": {
+      "default": false
+    },
+    "lora_strength_model_3_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_2": {
+      "default": ""
+    },
+    "lora_trigger_point_3_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_3": {
+      "default": false
+    },
+    "lora_strength_model_3_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_3": {
+      "default": ""
+    },
+    "lora_trigger_point_3_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_4": {
+      "default": false
+    },
+    "lora_strength_model_3_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_4": {
+      "default": ""
+    },
+    "lora_trigger_point_3_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_5": {
+      "default": false
+    },
+    "lora_strength_model_3_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_5": {
+      "default": ""
+    },
+    "lora_trigger_point_3_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_6": {
+      "default": false
+    },
+    "lora_strength_model_3_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_6": {
+      "default": ""
+    },
+    "lora_trigger_point_3_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_7": {
+      "default": false
+    },
+    "lora_strength_model_3_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_7": {
+      "default": ""
+    },
+    "lora_trigger_point_3_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_8": {
+      "default": false
+    },
+    "lora_strength_model_3_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_3_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_3_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_8": {
+      "default": ""
+    },
+    "lora_trigger_point_3_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_4": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_4_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_1": {
+      "default": false
+    },
+    "lora_strength_model_4_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_1": {
+      "default": ""
+    },
+    "lora_trigger_point_4_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_2": {
+      "default": false
+    },
+    "lora_strength_model_4_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_2": {
+      "default": ""
+    },
+    "lora_trigger_point_4_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_3": {
+      "default": false
+    },
+    "lora_strength_model_4_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_3": {
+      "default": ""
+    },
+    "lora_trigger_point_4_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_4": {
+      "default": false
+    },
+    "lora_strength_model_4_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_4": {
+      "default": ""
+    },
+    "lora_trigger_point_4_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_5": {
+      "default": false
+    },
+    "lora_strength_model_4_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_5": {
+      "default": ""
+    },
+    "lora_trigger_point_4_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_6": {
+      "default": false
+    },
+    "lora_strength_model_4_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_6": {
+      "default": ""
+    },
+    "lora_trigger_point_4_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_7": {
+      "default": false
+    },
+    "lora_strength_model_4_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_7": {
+      "default": ""
+    },
+    "lora_trigger_point_4_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_8": {
+      "default": false
+    },
+    "lora_strength_model_4_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_4_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_4_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_8": {
+      "default": ""
+    },
+    "lora_trigger_point_4_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_5": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_5_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_1": {
+      "default": false
+    },
+    "lora_strength_model_5_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_1": {
+      "default": ""
+    },
+    "lora_trigger_point_5_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_2": {
+      "default": false
+    },
+    "lora_strength_model_5_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_2": {
+      "default": ""
+    },
+    "lora_trigger_point_5_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_3": {
+      "default": false
+    },
+    "lora_strength_model_5_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_3": {
+      "default": ""
+    },
+    "lora_trigger_point_5_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_4": {
+      "default": false
+    },
+    "lora_strength_model_5_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_4": {
+      "default": ""
+    },
+    "lora_trigger_point_5_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_5": {
+      "default": false
+    },
+    "lora_strength_model_5_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_5": {
+      "default": ""
+    },
+    "lora_trigger_point_5_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_6": {
+      "default": false
+    },
+    "lora_strength_model_5_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_6": {
+      "default": ""
+    },
+    "lora_trigger_point_5_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_7": {
+      "default": false
+    },
+    "lora_strength_model_5_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_7": {
+      "default": ""
+    },
+    "lora_trigger_point_5_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_8": {
+      "default": false
+    },
+    "lora_strength_model_5_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_5_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_5_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_8": {
+      "default": ""
+    },
+    "lora_trigger_point_5_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_6": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_6_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_1": {
+      "default": false
+    },
+    "lora_strength_model_6_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_1": {
+      "default": ""
+    },
+    "lora_trigger_point_6_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_2": {
+      "default": false
+    },
+    "lora_strength_model_6_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_2": {
+      "default": ""
+    },
+    "lora_trigger_point_6_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_3": {
+      "default": false
+    },
+    "lora_strength_model_6_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_3": {
+      "default": ""
+    },
+    "lora_trigger_point_6_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_4": {
+      "default": false
+    },
+    "lora_strength_model_6_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_4": {
+      "default": ""
+    },
+    "lora_trigger_point_6_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_5": {
+      "default": false
+    },
+    "lora_strength_model_6_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_5": {
+      "default": ""
+    },
+    "lora_trigger_point_6_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_6": {
+      "default": false
+    },
+    "lora_strength_model_6_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_6": {
+      "default": ""
+    },
+    "lora_trigger_point_6_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_7": {
+      "default": false
+    },
+    "lora_strength_model_6_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_7": {
+      "default": ""
+    },
+    "lora_trigger_point_6_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_8": {
+      "default": false
+    },
+    "lora_strength_model_6_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_6_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_6_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_8": {
+      "default": ""
+    },
+    "lora_trigger_point_6_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_7": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_7_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_1": {
+      "default": false
+    },
+    "lora_strength_model_7_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_1": {
+      "default": ""
+    },
+    "lora_trigger_point_7_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_2": {
+      "default": false
+    },
+    "lora_strength_model_7_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_2": {
+      "default": ""
+    },
+    "lora_trigger_point_7_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_3": {
+      "default": false
+    },
+    "lora_strength_model_7_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_3": {
+      "default": ""
+    },
+    "lora_trigger_point_7_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_4": {
+      "default": false
+    },
+    "lora_strength_model_7_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_4": {
+      "default": ""
+    },
+    "lora_trigger_point_7_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_5": {
+      "default": false
+    },
+    "lora_strength_model_7_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_5": {
+      "default": ""
+    },
+    "lora_trigger_point_7_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_6": {
+      "default": false
+    },
+    "lora_strength_model_7_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_6": {
+      "default": ""
+    },
+    "lora_trigger_point_7_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_7": {
+      "default": false
+    },
+    "lora_strength_model_7_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_7": {
+      "default": ""
+    },
+    "lora_trigger_point_7_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_8": {
+      "default": false
+    },
+    "lora_strength_model_7_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_7_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_7_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_8": {
+      "default": ""
+    },
+    "lora_trigger_point_7_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_8": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_8_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_1": {
+      "default": false
+    },
+    "lora_strength_model_8_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_1": {
+      "default": ""
+    },
+    "lora_trigger_point_8_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_2": {
+      "default": false
+    },
+    "lora_strength_model_8_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_2": {
+      "default": ""
+    },
+    "lora_trigger_point_8_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_3": {
+      "default": false
+    },
+    "lora_strength_model_8_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_3": {
+      "default": ""
+    },
+    "lora_trigger_point_8_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_4": {
+      "default": false
+    },
+    "lora_strength_model_8_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_4": {
+      "default": ""
+    },
+    "lora_trigger_point_8_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_5": {
+      "default": false
+    },
+    "lora_strength_model_8_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_5": {
+      "default": ""
+    },
+    "lora_trigger_point_8_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_6": {
+      "default": false
+    },
+    "lora_strength_model_8_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_6": {
+      "default": ""
+    },
+    "lora_trigger_point_8_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_7": {
+      "default": false
+    },
+    "lora_strength_model_8_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_7": {
+      "default": ""
+    },
+    "lora_trigger_point_8_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_8": {
+      "default": false
+    },
+    "lora_strength_model_8_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_strength_clip_8_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.01
+    },
+    "lora_phases_8_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_8": {
+      "default": ""
+    },
+    "lora_trigger_point_8_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "bg_fix_1": {
+      "default": ""
+    },
+    "bg_random_text_1": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_1": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_1": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_1": {
+      "default": true
+    },
+    "bg_fix_2": {
+      "default": ""
+    },
+    "bg_random_text_2": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_2": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_2": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_2": {
+      "default": true
+    },
+    "bg_fix_3": {
+      "default": ""
+    },
+    "bg_random_text_3": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_3": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_3": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_3": {
+      "default": true
+    },
+    "bg_fix_4": {
+      "default": ""
+    },
+    "bg_random_text_4": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_4": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_4": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_4": {
+      "default": true
+    },
+    "bg_fix_5": {
+      "default": ""
+    },
+    "bg_random_text_5": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_5": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_5": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_5": {
+      "default": true
+    },
+    "bg_fix_6": {
+      "default": ""
+    },
+    "bg_random_text_6": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_6": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_6": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_6": {
+      "default": true
+    },
+    "bg_fix_7": {
+      "default": ""
+    },
+    "bg_random_text_7": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_7": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_7": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_7": {
+      "default": true
+    },
+    "bg_fix_8": {
+      "default": ""
+    },
+    "bg_random_text_8": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_8": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_8": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_8": {
+      "default": true
+    },
+    "randomize_character_1": {
+      "default": false
+    },
+    "randomize_character_2": {
+      "default": false
+    },
+    "randomize_character_3": {
+      "default": false
+    },
+    "randomize_character_4": {
+      "default": false
+    },
+    "randomize_character_5": {
+      "default": false
+    },
+    "randomize_character_6": {
+      "default": false
+    },
+    "randomize_character_7": {
+      "default": false
+    },
+    "randomize_character_8": {
+      "default": false
+    },
+    "random_character_locked_1": {
+      "default": false
+    },
+    "random_character_data_1": {
+      "default": ""
+    },
+    "random_character_locked_2": {
+      "default": false
+    },
+    "random_character_data_2": {
+      "default": ""
+    },
+    "random_character_locked_3": {
+      "default": false
+    },
+    "random_character_data_3": {
+      "default": ""
+    },
+    "random_character_locked_4": {
+      "default": false
+    },
+    "random_character_data_4": {
+      "default": ""
+    },
+    "random_character_locked_5": {
+      "default": false
+    },
+    "random_character_data_5": {
+      "default": ""
+    },
+    "random_character_locked_6": {
+      "default": false
+    },
+    "random_character_data_6": {
+      "default": ""
+    },
+    "random_character_locked_7": {
+      "default": false
+    },
+    "random_character_data_7": {
+      "default": ""
+    },
+    "random_character_locked_8": {
+      "default": false
+    },
+    "random_character_data_8": {
+      "default": ""
+    },
+    "random_character_filters_1": {
+      "default": "{}"
+    },
+    "combo_collapsed_1": {
+      "default": false
+    },
+    "lora_strength_locked_1_1": {
+      "default": false
+    },
+    "lora_strength_locked_1_2": {
+      "default": false
+    },
+    "lora_strength_locked_1_3": {
+      "default": false
+    },
+    "lora_strength_locked_1_4": {
+      "default": false
+    },
+    "lora_strength_locked_1_5": {
+      "default": false
+    },
+    "lora_strength_locked_1_6": {
+      "default": false
+    },
+    "lora_strength_locked_1_7": {
+      "default": false
+    },
+    "lora_strength_locked_1_8": {
+      "default": false
+    },
+    "random_character_filters_2": {
+      "default": "{}"
+    },
+    "combo_collapsed_2": {
+      "default": false
+    },
+    "lora_strength_locked_2_1": {
+      "default": false
+    },
+    "lora_strength_locked_2_2": {
+      "default": false
+    },
+    "lora_strength_locked_2_3": {
+      "default": false
+    },
+    "lora_strength_locked_2_4": {
+      "default": false
+    },
+    "lora_strength_locked_2_5": {
+      "default": false
+    },
+    "lora_strength_locked_2_6": {
+      "default": false
+    },
+    "lora_strength_locked_2_7": {
+      "default": false
+    },
+    "lora_strength_locked_2_8": {
+      "default": false
+    },
+    "random_character_filters_3": {
+      "default": "{}"
+    },
+    "combo_collapsed_3": {
+      "default": false
+    },
+    "lora_strength_locked_3_1": {
+      "default": false
+    },
+    "lora_strength_locked_3_2": {
+      "default": false
+    },
+    "lora_strength_locked_3_3": {
+      "default": false
+    },
+    "lora_strength_locked_3_4": {
+      "default": false
+    },
+    "lora_strength_locked_3_5": {
+      "default": false
+    },
+    "lora_strength_locked_3_6": {
+      "default": false
+    },
+    "lora_strength_locked_3_7": {
+      "default": false
+    },
+    "lora_strength_locked_3_8": {
+      "default": false
+    },
+    "random_character_filters_4": {
+      "default": "{}"
+    },
+    "combo_collapsed_4": {
+      "default": false
+    },
+    "lora_strength_locked_4_1": {
+      "default": false
+    },
+    "lora_strength_locked_4_2": {
+      "default": false
+    },
+    "lora_strength_locked_4_3": {
+      "default": false
+    },
+    "lora_strength_locked_4_4": {
+      "default": false
+    },
+    "lora_strength_locked_4_5": {
+      "default": false
+    },
+    "lora_strength_locked_4_6": {
+      "default": false
+    },
+    "lora_strength_locked_4_7": {
+      "default": false
+    },
+    "lora_strength_locked_4_8": {
+      "default": false
+    },
+    "random_character_filters_5": {
+      "default": "{}"
+    },
+    "combo_collapsed_5": {
+      "default": false
+    },
+    "lora_strength_locked_5_1": {
+      "default": false
+    },
+    "lora_strength_locked_5_2": {
+      "default": false
+    },
+    "lora_strength_locked_5_3": {
+      "default": false
+    },
+    "lora_strength_locked_5_4": {
+      "default": false
+    },
+    "lora_strength_locked_5_5": {
+      "default": false
+    },
+    "lora_strength_locked_5_6": {
+      "default": false
+    },
+    "lora_strength_locked_5_7": {
+      "default": false
+    },
+    "lora_strength_locked_5_8": {
+      "default": false
+    },
+    "random_character_filters_6": {
+      "default": "{}"
+    },
+    "combo_collapsed_6": {
+      "default": false
+    },
+    "lora_strength_locked_6_1": {
+      "default": false
+    },
+    "lora_strength_locked_6_2": {
+      "default": false
+    },
+    "lora_strength_locked_6_3": {
+      "default": false
+    },
+    "lora_strength_locked_6_4": {
+      "default": false
+    },
+    "lora_strength_locked_6_5": {
+      "default": false
+    },
+    "lora_strength_locked_6_6": {
+      "default": false
+    },
+    "lora_strength_locked_6_7": {
+      "default": false
+    },
+    "lora_strength_locked_6_8": {
+      "default": false
+    },
+    "random_character_filters_7": {
+      "default": "{}"
+    },
+    "combo_collapsed_7": {
+      "default": false
+    },
+    "lora_strength_locked_7_1": {
+      "default": false
+    },
+    "lora_strength_locked_7_2": {
+      "default": false
+    },
+    "lora_strength_locked_7_3": {
+      "default": false
+    },
+    "lora_strength_locked_7_4": {
+      "default": false
+    },
+    "lora_strength_locked_7_5": {
+      "default": false
+    },
+    "lora_strength_locked_7_6": {
+      "default": false
+    },
+    "lora_strength_locked_7_7": {
+      "default": false
+    },
+    "lora_strength_locked_7_8": {
+      "default": false
+    },
+    "random_character_filters_8": {
+      "default": "{}"
+    },
+    "combo_collapsed_8": {
+      "default": false
+    },
+    "lora_strength_locked_8_1": {
+      "default": false
+    },
+    "lora_strength_locked_8_2": {
+      "default": false
+    },
+    "lora_strength_locked_8_3": {
+      "default": false
+    },
+    "lora_strength_locked_8_4": {
+      "default": false
+    },
+    "lora_strength_locked_8_5": {
+      "default": false
+    },
+    "lora_strength_locked_8_6": {
+      "default": false
+    },
+    "lora_strength_locked_8_7": {
+      "default": false
+    },
+    "lora_strength_locked_8_8": {
+      "default": false
+    },
+    "use_nl": {
+      "type": "BOOLEAN",
+      "default": false
+    },
+    "nl_girl_description_1": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_1": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_2": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_2": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_3": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_3": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_4": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_4": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_5": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_5": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_6": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_6": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_7": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_7": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_8": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_8": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_garment_actions": {
+      "type": "STRING",
+      "default": "dress=lifted\nshirt=lifted\nblouse=lifted\nskirt=lifted\npants=lowered\ntrousers=lowered\nshorts=pulled aside"
+    },
+    "nl_clothing_stage_2": {
+      "type": "STRING",
+      "default": "{clothing} Her {garment} {verb}, showing her breasts, and her panties are aside."
+    },
+    "nl_clothing_stage_3": {
+      "type": "STRING",
+      "default": "{clothing} Her {garment} {verb}, showing her breasts, and her panties are removed."
+    },
+    "nl_clothing_stage_4": {
+      "type": "STRING",
+      "default": "She is completely nude."
+    }
+  },
+  "magik_nl_meta_prompter_json": {
+    "Posing": {
+      "default": 10
+    },
+    "Teasing": {
+      "default": 20
+    },
+    "Groping": {
+      "default": 30
+    },
+    "Group_Groping": {
+      "default": 40
+    },
+    "Cunni": {
+      "default": 50
+    },
+    "BJ": {
+      "default": 70
+    },
+    "Action": {
+      "default": 90
+    },
+    "Anaction": {
+      "default": 110
+    },
+    "Group_BJ": {
+      "default": 130
+    },
+    "Group": {
+      "default": 140
+    },
+    "Facial": {
+      "default": 160
+    },
+    "lift_clothes_panties": {
+      "default": 35
+    },
+    "lift_clothes_no_panties": {
+      "default": 90
+    },
+    "completely_nude": {
+      "default": 125
+    },
+    "CLOTHES_LIFTING_CHECKLIST": {
+      "default": "pants, shorts, jeans, skirt, shirt, dress, jacket, blazer, bikini, swimsuit, uniform, outfit",
+      "multiline": true
+    },
+    "Posing_enabled": {
+      "default": true
+    },
+    "Teasing_enabled": {
+      "default": true
+    },
+    "Groping_enabled": {
+      "default": true
+    },
+    "Group_Groping_enabled": {
+      "default": true
+    },
+    "Cunni_enabled": {
+      "default": true
+    },
+    "BJ_enabled": {
+      "default": true
+    },
+    "Action_enabled": {
+      "default": true
+    },
+    "Anaction_enabled": {
+      "default": true
+    },
+    "Group_BJ_enabled": {
+      "default": true
+    },
+    "Group_enabled": {
+      "default": true
+    },
+    "Facial_enabled": {
+      "default": true
+    },
+    "use_Scene": {
+      "default": true
+    },
+    "use_Composition": {
+      "default": true
+    },
+    "use_Lighting": {
+      "default": true
+    },
+    "use_Style": {
+      "default": true
+    },
+    "use_Technical_details": {
+      "default": true
+    },
+    "qt_style": {
+      "default": "anime"
+    },
+    "is_test": {
+      "default": false
+    },
+    "test_path": {
+      "default": ""
+    },
+    "active_combos": {
+      "default": 2,
+      "min": 2,
+      "max": 8
+    },
+    "Scene_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Composition_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Lighting_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Style_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Technical_details_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Posing_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Teasing_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Groping_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_Groping_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Cunni_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "BJ_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Action_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Anaction_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_BJ_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Group_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "wildcards_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "Outfit_path": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Common": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Anime": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT+ Realism": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Common": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Anime": {
+      "force_input": true,
+      "default": ""
+    },
+    "QT- Realism": {
+      "force_input": true,
+      "default": ""
+    },
+    "MALE_NAME_1": {
+      "default": "Alberto"
+    },
+    "MALE_DESCRIPTION_1": {
+      "default": "has grey hair, facial hair and is wearing a blue jacket and denim pants",
+      "multiline": true
+    },
+    "MALE_NAME_2": {
+      "default": "Benny"
+    },
+    "MALE_DESCRIPTION_2": {
+      "default": "has black hair, wears glasses and he is wearing a grey shirt and brown pants",
+      "multiline": true
+    },
+    "MALE_NAME_3": {
+      "default": "Carl"
+    },
+    "MALE_DESCRIPTION_3": {
+      "default": "has blonde hair, facial hair and is wearing a blue shirt and blue pants",
+      "multiline": true
+    },
+    "MALE_NAME_4": {
+      "default": "Didier"
+    },
+    "MALE_DESCRIPTION_4": {
+      "default": "He's a dog",
+      "multiline": true
+    },
+    "MALE_NAME_5": {
+      "default": "Emilio"
+    },
+    "MALE_DESCRIPTION_5": {
+      "default": "has dark brown hair, a mustache and is wearing a white shirt and khaki pants",
+      "multiline": true
+    },
+    "MALE_NAME_6": {
+      "default": "Franco"
+    },
+    "MALE_DESCRIPTION_6": {
+      "default": "has red hair, no facial hair and is wearing a yellow shirt and grey pants",
+      "multiline": true
+    },
+    "MALE_NAME_7": {
+      "default": "Gustavo"
+    },
+    "MALE_DESCRIPTION_7": {
+      "default": "has curly black hair, glasses and is wearing a brown jacket and denim pants",
+      "multiline": true
+    },
+    "MALE_NAME_8": {
+      "default": "Hector"
+    },
+    "MALE_DESCRIPTION_8": {
+      "default": "has short brown hair, a goatee and is wearing a black shirt and dark jeans",
+      "multiline": true
+    },
+    "MALE_NAME_9": {
+      "default": "Ivan"
+    },
+    "MALE_DESCRIPTION_9": {
+      "default": "has blonde hair, no facial hair and is wearing a navy jacket and grey pants",
+      "multiline": true
+    },
+    "MALE_NAME_10": {
+      "default": "Julian"
+    },
+    "MALE_DESCRIPTION_10": {
+      "default": "has long black hair, a beard and is wearing a red shirt and black pants",
+      "multiline": true
+    },
+    "MALE_NAME_11": {
+      "default": "Klaus"
+    },
+    "MALE_DESCRIPTION_11": {
+      "default": "has grey hair, glasses and is wearing a tweed jacket and brown pants",
+      "multiline": true
+    },
+    "MALE_NAME_12": {
+      "default": "Leo"
+    },
+    "MALE_DESCRIPTION_12": {
+      "default": "has dark hair, light stubble and is wearing a denim jacket and black jeans",
+      "multiline": true
+    },
+    "suffix_1": {
+      "default": ""
+    },
+    "GIRL_FACE_1": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_1": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_1": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_1": {
+      "default": false
+    },
+    "teenager_1": {
+      "default": false
+    },
+    "t_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_1": {
+      "default": false
+    },
+    "a_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_1": {
+      "default": false
+    },
+    "s_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_1": {
+      "default": false
+    },
+    "c_strength_1": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_2": {
+      "default": ""
+    },
+    "GIRL_FACE_2": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_2": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_2": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_2": {
+      "default": false
+    },
+    "teenager_2": {
+      "default": false
+    },
+    "t_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_2": {
+      "default": false
+    },
+    "a_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_2": {
+      "default": false
+    },
+    "s_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_2": {
+      "default": false
+    },
+    "c_strength_2": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_3": {
+      "default": ""
+    },
+    "GIRL_FACE_3": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_3": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_3": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_3": {
+      "default": false
+    },
+    "teenager_3": {
+      "default": false
+    },
+    "t_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_3": {
+      "default": false
+    },
+    "a_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_3": {
+      "default": false
+    },
+    "s_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_3": {
+      "default": false
+    },
+    "c_strength_3": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_4": {
+      "default": ""
+    },
+    "GIRL_FACE_4": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_4": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_4": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_4": {
+      "default": false
+    },
+    "teenager_4": {
+      "default": false
+    },
+    "t_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_4": {
+      "default": false
+    },
+    "a_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_4": {
+      "default": false
+    },
+    "s_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_4": {
+      "default": false
+    },
+    "c_strength_4": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_5": {
+      "default": ""
+    },
+    "GIRL_FACE_5": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_5": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_5": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_5": {
+      "default": false
+    },
+    "teenager_5": {
+      "default": false
+    },
+    "t_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_5": {
+      "default": false
+    },
+    "a_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_5": {
+      "default": false
+    },
+    "s_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_5": {
+      "default": false
+    },
+    "c_strength_5": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_6": {
+      "default": ""
+    },
+    "GIRL_FACE_6": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_6": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_6": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_6": {
+      "default": false
+    },
+    "teenager_6": {
+      "default": false
+    },
+    "t_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_6": {
+      "default": false
+    },
+    "a_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_6": {
+      "default": false
+    },
+    "s_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_6": {
+      "default": false
+    },
+    "c_strength_6": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_7": {
+      "default": ""
+    },
+    "GIRL_FACE_7": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_7": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_7": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_7": {
+      "default": false
+    },
+    "teenager_7": {
+      "default": false
+    },
+    "t_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_7": {
+      "default": false
+    },
+    "a_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_7": {
+      "default": false
+    },
+    "s_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_7": {
+      "default": false
+    },
+    "c_strength_7": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "suffix_8": {
+      "default": ""
+    },
+    "GIRL_FACE_8": {
+      "default": "",
+      "multiline": true
+    },
+    "GIRL_NOFACE_8": {
+      "default": "",
+      "multiline": true
+    },
+    "CHARACTER_CLOTHES_8": {
+      "default": "",
+      "multiline": true
+    },
+    "random_outfit_8": {
+      "default": false
+    },
+    "teenager_8": {
+      "default": false
+    },
+    "t_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "aged_up_8": {
+      "default": false
+    },
+    "a_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "slim_8": {
+      "default": false
+    },
+    "s_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "cleavage_8": {
+      "default": false
+    },
+    "c_strength_8": {
+      "default": 1.0,
+      "min": -20.0,
+      "max": 20.0,
+      "step": 0.1
+    },
+    "lora_visible_1": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_1_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_1": {
+      "default": false
+    },
+    "lora_strength_model_1_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_1": {
+      "default": ""
+    },
+    "lora_trigger_point_1_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_2": {
+      "default": false
+    },
+    "lora_strength_model_1_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_2": {
+      "default": ""
+    },
+    "lora_trigger_point_1_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_3": {
+      "default": false
+    },
+    "lora_strength_model_1_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_3": {
+      "default": ""
+    },
+    "lora_trigger_point_1_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_4": {
+      "default": false
+    },
+    "lora_strength_model_1_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_4": {
+      "default": ""
+    },
+    "lora_trigger_point_1_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_5": {
+      "default": false
+    },
+    "lora_strength_model_1_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_5": {
+      "default": ""
+    },
+    "lora_trigger_point_1_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_6": {
+      "default": false
+    },
+    "lora_strength_model_1_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_6": {
+      "default": ""
+    },
+    "lora_trigger_point_1_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_7": {
+      "default": false
+    },
+    "lora_strength_model_1_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_7": {
+      "default": ""
+    },
+    "lora_trigger_point_1_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_1_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_1_8": {
+      "default": false
+    },
+    "lora_strength_model_1_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_1_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_1_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_1_8": {
+      "default": ""
+    },
+    "lora_trigger_point_1_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_2": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_2_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_1": {
+      "default": false
+    },
+    "lora_strength_model_2_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_1": {
+      "default": ""
+    },
+    "lora_trigger_point_2_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_2": {
+      "default": false
+    },
+    "lora_strength_model_2_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_2": {
+      "default": ""
+    },
+    "lora_trigger_point_2_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_3": {
+      "default": false
+    },
+    "lora_strength_model_2_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_3": {
+      "default": ""
+    },
+    "lora_trigger_point_2_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_4": {
+      "default": false
+    },
+    "lora_strength_model_2_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_4": {
+      "default": ""
+    },
+    "lora_trigger_point_2_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_5": {
+      "default": false
+    },
+    "lora_strength_model_2_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_5": {
+      "default": ""
+    },
+    "lora_trigger_point_2_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_6": {
+      "default": false
+    },
+    "lora_strength_model_2_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_6": {
+      "default": ""
+    },
+    "lora_trigger_point_2_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_7": {
+      "default": false
+    },
+    "lora_strength_model_2_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_7": {
+      "default": ""
+    },
+    "lora_trigger_point_2_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_2_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_2_8": {
+      "default": false
+    },
+    "lora_strength_model_2_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_2_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_2_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_2_8": {
+      "default": ""
+    },
+    "lora_trigger_point_2_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_3": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_3_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_1": {
+      "default": false
+    },
+    "lora_strength_model_3_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_1": {
+      "default": ""
+    },
+    "lora_trigger_point_3_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_2": {
+      "default": false
+    },
+    "lora_strength_model_3_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_2": {
+      "default": ""
+    },
+    "lora_trigger_point_3_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_3": {
+      "default": false
+    },
+    "lora_strength_model_3_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_3": {
+      "default": ""
+    },
+    "lora_trigger_point_3_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_4": {
+      "default": false
+    },
+    "lora_strength_model_3_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_4": {
+      "default": ""
+    },
+    "lora_trigger_point_3_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_5": {
+      "default": false
+    },
+    "lora_strength_model_3_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_5": {
+      "default": ""
+    },
+    "lora_trigger_point_3_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_6": {
+      "default": false
+    },
+    "lora_strength_model_3_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_6": {
+      "default": ""
+    },
+    "lora_trigger_point_3_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_7": {
+      "default": false
+    },
+    "lora_strength_model_3_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_7": {
+      "default": ""
+    },
+    "lora_trigger_point_3_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_3_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_3_8": {
+      "default": false
+    },
+    "lora_strength_model_3_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_3_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_3_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_3_8": {
+      "default": ""
+    },
+    "lora_trigger_point_3_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_4": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_4_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_1": {
+      "default": false
+    },
+    "lora_strength_model_4_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_1": {
+      "default": ""
+    },
+    "lora_trigger_point_4_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_2": {
+      "default": false
+    },
+    "lora_strength_model_4_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_2": {
+      "default": ""
+    },
+    "lora_trigger_point_4_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_3": {
+      "default": false
+    },
+    "lora_strength_model_4_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_3": {
+      "default": ""
+    },
+    "lora_trigger_point_4_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_4": {
+      "default": false
+    },
+    "lora_strength_model_4_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_4": {
+      "default": ""
+    },
+    "lora_trigger_point_4_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_5": {
+      "default": false
+    },
+    "lora_strength_model_4_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_5": {
+      "default": ""
+    },
+    "lora_trigger_point_4_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_6": {
+      "default": false
+    },
+    "lora_strength_model_4_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_6": {
+      "default": ""
+    },
+    "lora_trigger_point_4_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_7": {
+      "default": false
+    },
+    "lora_strength_model_4_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_7": {
+      "default": ""
+    },
+    "lora_trigger_point_4_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_4_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_4_8": {
+      "default": false
+    },
+    "lora_strength_model_4_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_4_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_4_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_4_8": {
+      "default": ""
+    },
+    "lora_trigger_point_4_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_5": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_5_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_1": {
+      "default": false
+    },
+    "lora_strength_model_5_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_1": {
+      "default": ""
+    },
+    "lora_trigger_point_5_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_2": {
+      "default": false
+    },
+    "lora_strength_model_5_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_2": {
+      "default": ""
+    },
+    "lora_trigger_point_5_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_3": {
+      "default": false
+    },
+    "lora_strength_model_5_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_3": {
+      "default": ""
+    },
+    "lora_trigger_point_5_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_4": {
+      "default": false
+    },
+    "lora_strength_model_5_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_4": {
+      "default": ""
+    },
+    "lora_trigger_point_5_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_5": {
+      "default": false
+    },
+    "lora_strength_model_5_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_5": {
+      "default": ""
+    },
+    "lora_trigger_point_5_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_6": {
+      "default": false
+    },
+    "lora_strength_model_5_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_6": {
+      "default": ""
+    },
+    "lora_trigger_point_5_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_7": {
+      "default": false
+    },
+    "lora_strength_model_5_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_7": {
+      "default": ""
+    },
+    "lora_trigger_point_5_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_5_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_5_8": {
+      "default": false
+    },
+    "lora_strength_model_5_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_5_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_5_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_5_8": {
+      "default": ""
+    },
+    "lora_trigger_point_5_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_6": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_6_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_1": {
+      "default": false
+    },
+    "lora_strength_model_6_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_1": {
+      "default": ""
+    },
+    "lora_trigger_point_6_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_2": {
+      "default": false
+    },
+    "lora_strength_model_6_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_2": {
+      "default": ""
+    },
+    "lora_trigger_point_6_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_3": {
+      "default": false
+    },
+    "lora_strength_model_6_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_3": {
+      "default": ""
+    },
+    "lora_trigger_point_6_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_4": {
+      "default": false
+    },
+    "lora_strength_model_6_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_4": {
+      "default": ""
+    },
+    "lora_trigger_point_6_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_5": {
+      "default": false
+    },
+    "lora_strength_model_6_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_5": {
+      "default": ""
+    },
+    "lora_trigger_point_6_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_6": {
+      "default": false
+    },
+    "lora_strength_model_6_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_6": {
+      "default": ""
+    },
+    "lora_trigger_point_6_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_7": {
+      "default": false
+    },
+    "lora_strength_model_6_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_7": {
+      "default": ""
+    },
+    "lora_trigger_point_6_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_6_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_6_8": {
+      "default": false
+    },
+    "lora_strength_model_6_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_6_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_6_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_6_8": {
+      "default": ""
+    },
+    "lora_trigger_point_6_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_7": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_7_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_1": {
+      "default": false
+    },
+    "lora_strength_model_7_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_1": {
+      "default": ""
+    },
+    "lora_trigger_point_7_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_2": {
+      "default": false
+    },
+    "lora_strength_model_7_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_2": {
+      "default": ""
+    },
+    "lora_trigger_point_7_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_3": {
+      "default": false
+    },
+    "lora_strength_model_7_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_3": {
+      "default": ""
+    },
+    "lora_trigger_point_7_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_4": {
+      "default": false
+    },
+    "lora_strength_model_7_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_4": {
+      "default": ""
+    },
+    "lora_trigger_point_7_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_5": {
+      "default": false
+    },
+    "lora_strength_model_7_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_5": {
+      "default": ""
+    },
+    "lora_trigger_point_7_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_6": {
+      "default": false
+    },
+    "lora_strength_model_7_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_6": {
+      "default": ""
+    },
+    "lora_trigger_point_7_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_7": {
+      "default": false
+    },
+    "lora_strength_model_7_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_7": {
+      "default": ""
+    },
+    "lora_trigger_point_7_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_7_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_7_8": {
+      "default": false
+    },
+    "lora_strength_model_7_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_7_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_7_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_7_8": {
+      "default": ""
+    },
+    "lora_trigger_point_7_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_visible_8": {
+      "default": 2,
+      "min": 0,
+      "max": 8
+    },
+    "lora_8_1": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_1": {
+      "default": false
+    },
+    "lora_strength_model_8_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_1": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_1": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_1": {
+      "default": ""
+    },
+    "lora_trigger_point_8_1": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_2": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_2": {
+      "default": false
+    },
+    "lora_strength_model_8_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_2": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_2": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_2": {
+      "default": ""
+    },
+    "lora_trigger_point_8_2": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_3": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_3": {
+      "default": false
+    },
+    "lora_strength_model_8_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_3": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_3": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_3": {
+      "default": ""
+    },
+    "lora_trigger_point_8_3": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_4": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_4": {
+      "default": false
+    },
+    "lora_strength_model_8_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_4": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_4": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_4": {
+      "default": ""
+    },
+    "lora_trigger_point_8_4": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_5": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_5": {
+      "default": false
+    },
+    "lora_strength_model_8_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_5": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_5": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_5": {
+      "default": ""
+    },
+    "lora_trigger_point_8_5": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_6": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_6": {
+      "default": false
+    },
+    "lora_strength_model_8_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_6": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_6": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_6": {
+      "default": ""
+    },
+    "lora_trigger_point_8_6": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_7": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_7": {
+      "default": false
+    },
+    "lora_strength_model_8_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_7": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_7": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_7": {
+      "default": ""
+    },
+    "lora_trigger_point_8_7": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "lora_8_8": {
+      "options": [
+        "None"
+      ],
+      "default": "None"
+    },
+    "lora_enable_8_8": {
+      "default": false
+    },
+    "lora_strength_model_8_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_strength_clip_8_8": {
+      "default": 1.0,
+      "min": -100.0,
+      "max": 100.0,
+      "step": 0.1
+    },
+    "lora_phases_8_8": {
+      "default": "1,1,1,1,1,1,1,1,1,1,1"
+    },
+    "lora_trigger_word_8_8": {
+      "default": ""
+    },
+    "lora_trigger_point_8_8": {
+      "options": [
+        "background",
+        "character",
+        "outfit",
+        "pose",
+        "action",
+        "overall"
+      ],
+      "default": "background"
+    },
+    "bg_fix_1": {
+      "default": ""
+    },
+    "bg_random_text_1": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_1": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_1": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_1": {
+      "default": true
+    },
+    "bg_fix_2": {
+      "default": ""
+    },
+    "bg_random_text_2": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_2": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_2": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_2": {
+      "default": true
+    },
+    "bg_fix_3": {
+      "default": ""
+    },
+    "bg_random_text_3": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_3": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_3": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_3": {
+      "default": true
+    },
+    "bg_fix_4": {
+      "default": ""
+    },
+    "bg_random_text_4": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_4": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_4": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_4": {
+      "default": true
+    },
+    "bg_fix_5": {
+      "default": ""
+    },
+    "bg_random_text_5": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_5": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_5": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_5": {
+      "default": true
+    },
+    "bg_fix_6": {
+      "default": ""
+    },
+    "bg_random_text_6": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_6": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_6": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_6": {
+      "default": true
+    },
+    "bg_fix_7": {
+      "default": ""
+    },
+    "bg_random_text_7": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_7": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_7": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_7": {
+      "default": true
+    },
+    "bg_fix_8": {
+      "default": ""
+    },
+    "bg_random_text_8": {
+      "default": "",
+      "multiline": true
+    },
+    "bg_how_many_8": {
+      "default": 1,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "bg_location_type_8": {
+      "options": [
+        "indoors",
+        "outdoors"
+      ],
+      "default": "indoors"
+    },
+    "bg_include_location_8": {
+      "default": true
+    },
+    "randomize_character_1": {
+      "default": false
+    },
+    "randomize_character_2": {
+      "default": false
+    },
+    "randomize_character_3": {
+      "default": false
+    },
+    "randomize_character_4": {
+      "default": false
+    },
+    "randomize_character_5": {
+      "default": false
+    },
+    "randomize_character_6": {
+      "default": false
+    },
+    "randomize_character_7": {
+      "default": false
+    },
+    "randomize_character_8": {
+      "default": false
+    },
+    "random_character_locked_1": {
+      "default": false
+    },
+    "random_character_data_1": {
+      "default": ""
+    },
+    "random_character_locked_2": {
+      "default": false
+    },
+    "random_character_data_2": {
+      "default": ""
+    },
+    "random_character_locked_3": {
+      "default": false
+    },
+    "random_character_data_3": {
+      "default": ""
+    },
+    "random_character_locked_4": {
+      "default": false
+    },
+    "random_character_data_4": {
+      "default": ""
+    },
+    "random_character_locked_5": {
+      "default": false
+    },
+    "random_character_data_5": {
+      "default": ""
+    },
+    "random_character_locked_6": {
+      "default": false
+    },
+    "random_character_data_6": {
+      "default": ""
+    },
+    "random_character_locked_7": {
+      "default": false
+    },
+    "random_character_data_7": {
+      "default": ""
+    },
+    "random_character_locked_8": {
+      "default": false
+    },
+    "random_character_data_8": {
+      "default": ""
+    },
+    "random_character_filters_1": {
+      "default": "{}"
+    },
+    "combo_collapsed_1": {
+      "default": false
+    },
+    "lora_strength_locked_1_1": {
+      "default": true
+    },
+    "lora_strength_locked_1_2": {
+      "default": true
+    },
+    "lora_strength_locked_1_3": {
+      "default": true
+    },
+    "lora_strength_locked_1_4": {
+      "default": true
+    },
+    "lora_strength_locked_1_5": {
+      "default": true
+    },
+    "lora_strength_locked_1_6": {
+      "default": true
+    },
+    "lora_strength_locked_1_7": {
+      "default": true
+    },
+    "lora_strength_locked_1_8": {
+      "default": true
+    },
+    "random_character_filters_2": {
+      "default": "{}"
+    },
+    "combo_collapsed_2": {
+      "default": false
+    },
+    "lora_strength_locked_2_1": {
+      "default": true
+    },
+    "lora_strength_locked_2_2": {
+      "default": true
+    },
+    "lora_strength_locked_2_3": {
+      "default": true
+    },
+    "lora_strength_locked_2_4": {
+      "default": true
+    },
+    "lora_strength_locked_2_5": {
+      "default": true
+    },
+    "lora_strength_locked_2_6": {
+      "default": true
+    },
+    "lora_strength_locked_2_7": {
+      "default": true
+    },
+    "lora_strength_locked_2_8": {
+      "default": true
+    },
+    "random_character_filters_3": {
+      "default": "{}"
+    },
+    "combo_collapsed_3": {
+      "default": false
+    },
+    "lora_strength_locked_3_1": {
+      "default": true
+    },
+    "lora_strength_locked_3_2": {
+      "default": true
+    },
+    "lora_strength_locked_3_3": {
+      "default": true
+    },
+    "lora_strength_locked_3_4": {
+      "default": true
+    },
+    "lora_strength_locked_3_5": {
+      "default": true
+    },
+    "lora_strength_locked_3_6": {
+      "default": true
+    },
+    "lora_strength_locked_3_7": {
+      "default": true
+    },
+    "lora_strength_locked_3_8": {
+      "default": true
+    },
+    "random_character_filters_4": {
+      "default": "{}"
+    },
+    "combo_collapsed_4": {
+      "default": false
+    },
+    "lora_strength_locked_4_1": {
+      "default": true
+    },
+    "lora_strength_locked_4_2": {
+      "default": true
+    },
+    "lora_strength_locked_4_3": {
+      "default": true
+    },
+    "lora_strength_locked_4_4": {
+      "default": true
+    },
+    "lora_strength_locked_4_5": {
+      "default": true
+    },
+    "lora_strength_locked_4_6": {
+      "default": true
+    },
+    "lora_strength_locked_4_7": {
+      "default": true
+    },
+    "lora_strength_locked_4_8": {
+      "default": true
+    },
+    "random_character_filters_5": {
+      "default": "{}"
+    },
+    "combo_collapsed_5": {
+      "default": false
+    },
+    "lora_strength_locked_5_1": {
+      "default": true
+    },
+    "lora_strength_locked_5_2": {
+      "default": true
+    },
+    "lora_strength_locked_5_3": {
+      "default": true
+    },
+    "lora_strength_locked_5_4": {
+      "default": true
+    },
+    "lora_strength_locked_5_5": {
+      "default": true
+    },
+    "lora_strength_locked_5_6": {
+      "default": true
+    },
+    "lora_strength_locked_5_7": {
+      "default": true
+    },
+    "lora_strength_locked_5_8": {
+      "default": true
+    },
+    "random_character_filters_6": {
+      "default": "{}"
+    },
+    "combo_collapsed_6": {
+      "default": false
+    },
+    "lora_strength_locked_6_1": {
+      "default": true
+    },
+    "lora_strength_locked_6_2": {
+      "default": true
+    },
+    "lora_strength_locked_6_3": {
+      "default": true
+    },
+    "lora_strength_locked_6_4": {
+      "default": true
+    },
+    "lora_strength_locked_6_5": {
+      "default": true
+    },
+    "lora_strength_locked_6_6": {
+      "default": true
+    },
+    "lora_strength_locked_6_7": {
+      "default": true
+    },
+    "lora_strength_locked_6_8": {
+      "default": true
+    },
+    "random_character_filters_7": {
+      "default": "{}"
+    },
+    "combo_collapsed_7": {
+      "default": false
+    },
+    "lora_strength_locked_7_1": {
+      "default": true
+    },
+    "lora_strength_locked_7_2": {
+      "default": true
+    },
+    "lora_strength_locked_7_3": {
+      "default": true
+    },
+    "lora_strength_locked_7_4": {
+      "default": true
+    },
+    "lora_strength_locked_7_5": {
+      "default": true
+    },
+    "lora_strength_locked_7_6": {
+      "default": true
+    },
+    "lora_strength_locked_7_7": {
+      "default": true
+    },
+    "lora_strength_locked_7_8": {
+      "default": true
+    },
+    "random_character_filters_8": {
+      "default": "{}"
+    },
+    "combo_collapsed_8": {
+      "default": false
+    },
+    "lora_strength_locked_8_1": {
+      "default": true
+    },
+    "lora_strength_locked_8_2": {
+      "default": true
+    },
+    "lora_strength_locked_8_3": {
+      "default": true
+    },
+    "lora_strength_locked_8_4": {
+      "default": true
+    },
+    "lora_strength_locked_8_5": {
+      "default": true
+    },
+    "lora_strength_locked_8_6": {
+      "default": true
+    },
+    "lora_strength_locked_8_7": {
+      "default": true
+    },
+    "lora_strength_locked_8_8": {
+      "default": true
+    },
+    "use_nl": {
+      "type": "BOOLEAN",
+      "default": false
+    },
+    "nl_girl_description_1": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_1": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_2": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_2": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_3": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_3": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_4": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_4": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_5": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_5": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_6": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_6": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_7": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_7": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_girl_description_8": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_clothing_8": {
+      "type": "STRING",
+      "default": ""
+    },
+    "nl_garment_actions": {
+      "type": "STRING",
+      "default": "dress=lifted\nshirt=lifted\nblouse=lifted\nskirt=lifted\npants=lowered\ntrousers=lowered\nshorts=pulled aside"
+    },
+    "nl_clothing_stage_2": {
+      "type": "STRING",
+      "default": "{clothing} Her {garment} {verb}, showing her breasts, and her panties are aside."
+    },
+    "nl_clothing_stage_3": {
+      "type": "STRING",
+      "default": "{clothing} Her {garment} {verb}, showing her breasts, and her panties are removed."
+    },
+    "nl_clothing_stage_4": {
+      "type": "STRING",
+      "default": "She is completely nude."
+    }
+  }
+}

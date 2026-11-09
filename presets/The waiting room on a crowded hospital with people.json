@@ -1,0 +1,7 @@
+{
+    "fix": "The waiting room on a crowded hospital with people",
+    "random_text": "hospital bed, intravenous drip, doctor, wheelchair, chart, ventilation shaft, chair, bench, monitor\n",
+    "how_many": 4,
+    "location_type": "indoors",
+    "include_location": true
+}
